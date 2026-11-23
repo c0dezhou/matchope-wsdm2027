@@ -12,8 +12,9 @@ PYTHONPATH=src python examples/two_users.py
 ```
 
 The public code pipeline runs experiments and plots. It does not require LaTeX.
-Paper sources and typesetting templates are distributed separately from this
-repository. [RESULTS.md](RESULTS.md) maps outputs to the paper's figures and tables.
+Paper PDFs, sources, and typesetting files are provided in the
+[paper bundle](paper/MatchOPE_WSDM2027.zip). Compiling the paper is separate from
+this pipeline. [RESULTS.md](RESULTS.md) maps outputs to the paper's figures and tables.
 
 Experiment commands overwrite same-named files in
 `research/wsdm2027_matchope/evidence/`. Use a separate checkout or copy for new

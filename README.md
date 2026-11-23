@@ -14,8 +14,9 @@ by exposing better items while making worse user–item assignments; the code
 separates these effects and implements support analysis and statistical inference.
 
 This repository contains the paper's implementation, tests, aggregate results,
-and experiment commands. Paper sources, ACM templates, and raw datasets are
-outside the scope of this code release.
+and experiment commands. The [paper bundle](paper/MatchOPE_WSDM2027.zip) includes
+the main and supplementary PDFs, LaTeX sources, and required typesetting files.
+Raw datasets are not included.
 
 ## Install and run a small example
 
@@ -95,5 +96,6 @@ provides the paper as the preferred citation for GitHub's citation menu.
 }
 ```
 
-Project code and documentation use the [MIT license](LICENSE). External datasets
+Project code and documentation use the [MIT license](LICENSE). The paper bundle
+retains the paper and template licenses stated in its files. External datasets
 retain their own licenses and should also be cited; see [DATA.md](DATA.md).
