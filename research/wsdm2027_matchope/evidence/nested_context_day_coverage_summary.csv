@@ -1,0 +1,5 @@
+days,symmetric_day_cluster_coverage,skewed_day_cluster_coverage,symmetric_user_and_day_cluster_coverage,contexts_per_day,repetitions
+7,0.964,0.814,0.948,3,500
+10,0.948,0.866,0.922,3,500
+20,0.952,0.930,0.938,3,500
+40,0.942,0.956,0.946,3,500

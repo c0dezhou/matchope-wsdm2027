@@ -1,0 +1,5 @@
+scenario,finding,matching_value,target_value,reference_value,point_identified,direct_bound_width,separate_bound_width,actionable_gain
+additive_outcome,interaction absence forces matching value to zero,-1.734723475976807e-18,0.395,0.39499999999999996,True,0.0,0.0,0.0
+unsupported_common_mass_cancels,contrast is identified although both values are not,0.15000000000000002,0.625,0.47500000000000003,True,0.0,1.0,
+marginal_reference_breaks_support,target is supported but the matching contrast is only bounded,0.3,0.75,0.44999999999999996,False,0.5,0.5,
+positive_matching_negative_actionable,matching works but loses to the best shared action,0.09999999999999998,0.6,0.5,True,0.0,0.0,-0.30000000000000004

@@ -1,0 +1,5 @@
+true_matching_value,centered_bias_in_mcse,centered_mean_se_to_empirical_sd,centered_user_cluster_coverage,centered_day_cluster_coverage,centered_two_way_cluster_coverage,centered_two_way_variance_failures,uncentered_to_centered_empirical_sd_ratio,ipw_to_centered_empirical_variance_ratio,repetitions
+0.0,-1.039816,0.923153,0.946,0.948,0.948,0,0.999372,1.107712,500
+0.000483,-0.272116,0.918990,0.952,0.956,0.956,0,0.999461,1.112763,500
+0.000966,0.221167,0.932910,0.956,0.954,0.956,0,0.999411,1.108513,500
+0.001932,1.201285,0.923224,0.964,0.948,0.958,0,0.999392,1.118598,500

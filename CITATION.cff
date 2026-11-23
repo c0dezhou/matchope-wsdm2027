@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the WSDM 2027 paper below."
+type: software
+title: "MatchOPE: WSDM 2027 reproduction code"
+authors:
+  - family-names: Zhou
+    given-names: Xiaoyu
+    orcid: "https://orcid.org/0009-0007-6991-6243"
+  - family-names: Li
+    given-names: Haifeng
+    orcid: "https://orcid.org/0000-0001-6206-3662"
+  - family-names: Hai
+    given-names: Mo
+    orcid: "https://orcid.org/0009-0005-1369-4341"
+repository-code: "https://github.com/c0dezhou/matchope-wsdm2027"
+url: "https://github.com/c0dezhou/matchope-wsdm2027"
+license: MIT
+preferred-citation:
+  type: conference-paper
+  title: >-
+    Higher Policy Value Can Mask Worse User–Item Matching:
+    Controlling Exposure in Off-Policy Evaluation
+  authors:
+    - family-names: Zhou
+      given-names: Xiaoyu
+      orcid: "https://orcid.org/0009-0007-6991-6243"
+    - family-names: Li
+      given-names: Haifeng
+      orcid: "https://orcid.org/0000-0001-6206-3662"
+    - family-names: Hai
+      given-names: Mo
+      orcid: "https://orcid.org/0009-0005-1369-4341"
+  collection-title: >-
+    Proceedings of the Twentieth ACM International Conference
+    on Web Search and Data Mining
+  year: 2027
+  doi: "10.1145/3862322.3863623"
+  url: "https://doi.org/10.1145/3862322.3863623"
+  publisher:
+    name: Association for Computing Machinery
