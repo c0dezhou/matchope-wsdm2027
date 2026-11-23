@@ -208,7 +208,7 @@ PYTHONPATH=src python -m matchope.pipeline.run_obd_matching_gate \
 ```
 
 The OBD path audit adds 61 log-spaced strengths, the seven displayed grid
-points, and the exact infinite-temperature policy. Tied maximum-affinity
+points, and the exact infinite-strength policy. Tied maximum-affinity
 actions share probability equally at that endpoint.
 
 Run the same-design OBD positive control with:

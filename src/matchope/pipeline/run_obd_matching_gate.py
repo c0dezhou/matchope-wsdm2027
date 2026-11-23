@@ -7,7 +7,7 @@ The target policy is a transparent softmax transformation of OBD's 34
 user--item affinity fields.  Day-wise cross-fitting estimates the policy
 marginal and the action--position outcome marginal. No temperature is selected
 on the evaluation outcome; the requested grid is reported as a sensitivity
-curve. A dense fixed path and the exact infinite-temperature endpoint audit the
+curve. A dense fixed path and the exact infinite-strength endpoint audit the
 tested score path. Both row-i.i.d. and seven-day cluster uncertainty are
 shown because the former can conceal temporal concentration of a small effect.
 """
@@ -47,7 +47,7 @@ def affinity_policy(affinity: np.ndarray, *, inverse_temperature: float) -> np.n
 
 
 def affinity_limit_policy(affinity: np.ndarray) -> np.ndarray:
-    """Return the exact infinite-temperature limit of the affinity softmax."""
+    """Return the exact infinite-strength limit of the affinity softmax."""
 
     values = np.asarray(affinity, dtype=np.float64)
     if values.ndim != 2 or values.shape[1] < 2 or not np.isfinite(values).all():
